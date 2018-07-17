@@ -1,0 +1,121 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    background: url('../img/BG.jpg') no-repeat 50% 50% fixed ;
+}
+
+a{
+    color:#000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+h2{
+    font-weight: 700;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.white{
+    color: #fff;
+background-color: rgba(0, 0, 0, 0.7);
+}
+header, footer, bg-white{
+    background-color: #fff;
+}
+header, section, footer{
+    text-align: center;
+    margin: 0 auto;
+    width: 1140px;
+    padding: 40px 0; 
+}
+
+section{
+    padding-top: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav li a{
+    height: 55px;
+    padding: 20px 10px;
+}
+nav li a:hover{
+    color:#fff;
+    background-color: #000;
+}
+
+.button{
+    background-color: #8c85b8;
+    padding: 20px;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+    width: 200px;
+    color: #fff;
+}
+
+.subscribe-form input{
+    border: 3px solid #000;
+    border-radius: 4px 0 0 4px;
+    height: 40px;
+    padding-left: 20px;  
+}
+.subscribe-form button{
+    background-color: #8c85b8;
+    border: 3px solid #000;
+    border-left: none;
+    height: 40px;
+    border-radius: 0 4px 4px 0; 
+}
+.amazon{
+    background-color: #000;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.amazon-anim{
+    height: 110px;
+}
+
+@keyframes anim{
+    from{
+        width: 200px;
+        height: 97px;
+    }
+    to{
+        width: 205px;
+        height: 100px;
+    }
+}
+
+.amazon-anim img{
+    animation-name: anim;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.homemade{
+    /* background: url('../img/BG.jpg') no-repeat 50% 50% ; */
+}
+
+.bold-text{
+    font-weight: 700;
+}
