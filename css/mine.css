@@ -20,6 +20,7 @@ h2{
 ul{
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .white{
@@ -40,18 +41,12 @@ section{
     padding-top: 50px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-}
 
 header h1{
     font-size: 0;
 }
-nav li{
-    display: inline-block;
-    margin-right: 10px;
-}
+
+
 nav li a{
     height: 55px;
     padding: 20px 10px;
@@ -69,6 +64,9 @@ nav li a:hover{
     text-align: center;
     width: 200px;
     color: #fff;
+}
+.subscribe-form{
+    min-width: 388px;
 }
 
 .subscribe-form input{
@@ -112,10 +110,7 @@ nav li a:hover{
     animation-direction: alternate;
 }
 
-.homemade{
-    /* background: url('../img/BG.jpg') no-repeat 50% 50% ; */
-}
-
 .bold-text{
     font-weight: 700;
+    margin-top: 20px;
 }
